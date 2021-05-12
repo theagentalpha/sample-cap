@@ -1,0 +1,17 @@
+{
+  "appId": "com.trp.sidecar",
+  "appName": "barebones-react-typescript-express",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "server": {
+    "url": "http://localhost:3000",
+    "allowNavigation": ["*"],
+    "androidScheme": "http"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

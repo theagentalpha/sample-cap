@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">barebones-react-typescript-express</string>
+    <string name="title_activity_main">barebones-react-typescript-express</string>
+    <string name="package_name">com.trp.sidecar</string>
+    <string name="custom_url_scheme">com.trp.sidecar</string>
+</resources>
