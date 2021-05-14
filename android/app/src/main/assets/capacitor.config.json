@@ -4,7 +4,7 @@
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "server": {
-    "url": "http://10.0.2.2:3000",
+    "url": "http://ec2-54-164-76-144.compute-1.amazonaws.com:3000/",
     "allowNavigation": ["*"],
     "androidScheme": "http"
   },
