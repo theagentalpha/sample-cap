@@ -26,7 +26,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar 
   \******************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar express = __webpack_require__(/*! express */ \"express\");\nvar routes_1 = __webpack_require__(/*! ./routes */ \"./src/server/routes.ts\");\nvar https = __webpack_require__(/*! https */ \"https\");\nvar fs = __webpack_require__(/*! fs */ \"fs\");\nvar app = express();\nvar httpsServer = https.createServer({\n    key: fs.readFileSync('./example.key'),\n    cert: fs.readFileSync('./example.crt'),\n}, app);\napp.use(express.static('public'));\napp.use(routes_1.default);\nvar port = process.env.PORT || 3000;\nhttpsServer.listen(port, function () { return console.log(\"Server listening on port: \" + port); });\n\n\n//# sourceURL=webpack://barebones-react-typescript-express/./src/server/server.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nvar express = __webpack_require__(/*! express */ \"express\");\nvar routes_1 = __webpack_require__(/*! ./routes */ \"./src/server/routes.ts\");\nvar https = __webpack_require__(/*! https */ \"https\");\nvar fs = __webpack_require__(/*! fs */ \"fs\");\nvar app = express();\nvar httpsServer = https.createServer({\n    key: fs.readFileSync('./example.key'),\n    cert: fs.readFileSync('./example.cert'),\n}, app);\napp.use(express.static('public'));\napp.use(routes_1.default);\nvar port = process.env.PORT || 3000;\nhttpsServer.listen(port, function () { return console.log(\"Server listening on port: \" + port); });\n\n\n//# sourceURL=webpack://barebones-react-typescript-express/./src/server/server.ts?");
 
 /***/ }),
 

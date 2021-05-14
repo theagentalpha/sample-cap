@@ -6,8 +6,8 @@ const fs = require('fs');
 const app = express();
 
 const httpsServer = https.createServer({
-    key: fs.readFileSync('/home/ec2-user/project/example.key'),
-    cert: fs.readFileSync('/home/ec2-user/project/example.crt'),
+    key: fs.readFileSync('./example.key'),
+    cert: fs.readFileSync('./example.cert'),
   }, app);
 
 app.use(express.static('public'));
